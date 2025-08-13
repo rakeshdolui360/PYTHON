@@ -1,4 +1,4 @@
-# format
+# format of dictionaries
 info={
     "name":"rakesh dolui",
     "age":20,
@@ -17,6 +17,7 @@ info={
 # dictionaries store data in key:value pair. in case of key all datatypes like string, int,float,boolean  can be used but list ,tuples can not  be used as they are mutable.
 # in case of value all datatypes like string, int,float,boolean and list ,tuples can be used.
 # after each key:value pair , is to be given.
+# duplicate keys are not allowed
 print(info)
 print(type(info))
 
