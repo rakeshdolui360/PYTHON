@@ -57,6 +57,26 @@ while idx<=10:
     idx+=1
   
 
+
+print(" sum of n  number using while loop.")
+n=int(input(" enter number  "))
+i=1
+sum=0
+while i<=n:
+    sum+=i
+    i+=1
+    
+print("  total sum =" ,sum)
         
 
+print(" factorial  of n  number using while loop.")
+n=int(input(" enter number  "))
+i=1
+fact=1
+while i<=n:
+    fact*=i
+    i+=1
+    
+print(" factorial is=" ,fact)
+        
 
