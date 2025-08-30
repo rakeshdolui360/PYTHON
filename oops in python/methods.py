@@ -6,6 +6,7 @@ class student:
         self.name=name
         self.marks=marks
     
+    # method  use self parameter.methods are function that belong to object.
     def welcome(self):
         print("welcome",self.name)
         
